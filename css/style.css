@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* top area start */
+.top-area{
+    padding:75px 0;
+}
+.d-flex{
+    display: flex;
+}
+.col-2{
+    width: 50%;
+    padding: 0 5%;
+}
+.top-left-text{
+    padding-top: 100px;
+}
+.top-left-text h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #747474;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.top-left-text h1 span{
+    color: #FB8847;
+}
+.top-left-text p{
+    color: #828282;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.common-btn{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(#FC8F4A,#FD5131);
+    outline: none;
+    border:transparent;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    display: inline-block;
+
+}
+.top-banner-image{
+    background-image: url(../images/top-banner-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+}
+.top-banner-image img{
+    width: 375px;
+    margin-left: 75px;
+}
+
+/* top area css end */
+
+/* about area css */
+.about-area{
+    background-image: url(../images/about-bg.jpg);
+    background-size: cover;
+    padding:100px 0 0;
+
+}
+.about-bg img {
+    width: 671px;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+.about-text{
+    margin-right: 20px;
+}
+.about-text h4{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.about-text p{
+    font-size: 18px;
+    line-height:25px;
+    margin-bottom: 20px;
+}
+
+/* about area css end */
