@@ -70,6 +70,7 @@ h4{
 .about-area{
     background-image: url(../images/about-bg.jpg);
     background-size: cover;
+    background-color: #EBF8FF;
     padding:100px 0 0;
 
 }
