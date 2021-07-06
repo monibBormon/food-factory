@@ -5,7 +5,15 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
+h1,h2,h3,h4{
+    font-family:'Montserrat', sans-serif; ;
+}
+h2{
+    font-size: 48px;
+}
+h4{
+    font-size: 18px;
+}
 /* top area start */
 .top-area{
     padding:75px 0;
@@ -88,3 +96,83 @@ body{
 }
 
 /* about area css end */
+
+
+/* food list css */
+.food-list-area{
+    padding:100px 0;
+}
+.food-list-title{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+.food-list-title h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #676767;
+}
+.food-list-title p{
+    margin-bottom: 50px;
+    color: #676767;
+    font-size: 20px;
+}
+.col-4{
+    width: 33%;
+    padding: 0 5%;
+}
+.single-food img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+.single-food{
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 9px 10px 30px 2px #ddd;
+}
+.single-food h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.single-food p{
+    font-size: 16px;
+    line-height: 25px;
+}
+/* food list css end */
+
+/* counter area css */
+.counter-area{
+    padding: 80px 0px;
+    box-shadow: 10px 7px 50px 5px #ddd;
+    margin: 0px 70px 100px;
+    border-radius: 30px;
+}
+.single-counter{
+    text-align: center;
+}
+.single-counter h4{
+    color: #191A1F;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+/* counter area css end */
+
+/* footer css */
+footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: #0B0E17;
+    color: #fff;
+    text-transform: capitalize;
+}
+footer h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+footer h2 span{
+    color: #FC8043;
+}
