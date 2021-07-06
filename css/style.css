@@ -5,16 +5,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-h1,h2,h3,h4{
-    font-family:'Montserrat', sans-serif; ;
-}
 h2{
     font-size: 48px;
 }
 h4{
     font-size: 18px;
 }
-/* top area start */
+/*---- top area start -----*/
 .top-area{
     padding:75px 0;
 }
@@ -69,7 +66,7 @@ h4{
 
 /* top area css end */
 
-/* about area css */
+/* -----about area css ----- */
 .about-area{
     background-image: url(../images/about-bg.jpg);
     background-size: cover;
@@ -98,7 +95,7 @@ h4{
 /* about area css end */
 
 
-/* food list css */
+/*----- food list css----- */
 .food-list-area{
     padding:100px 0;
 }
@@ -142,7 +139,7 @@ h4{
 }
 /* food list css end */
 
-/* team area css */
+/*----- team area css---- */
 .col-3{
     width: 25%;
     padding: 0 3%;
@@ -151,24 +148,26 @@ h4{
     padding:50px 0 100px;
 }
 .single-team img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 100%;
+    height: 280px;
     margin-bottom: 20px;
 }
 .single-team{
     text-align: center;
-    padding: 35px 15px;
+    padding-bottom: 30px;
     box-shadow: 1px 4px 25px #ddd;
+    border-radius: 5px;
 }
 .single-team span{
     text-transform: capitalize;
+    margin-top: 10px;
+    display: inline-block;
 }
 
-/* team area css end */
+/*--- team area css end---- */
 
 
-/* counter area css */
+/* -----counter area css----- */
 .counter-area{
     padding: 80px 0px;
     box-shadow: 10px 7px 50px 5px #ddd;
@@ -183,11 +182,14 @@ h4{
     text-transform: capitalize;
     margin-top: 15px;
 }
-/* counter area css end */
+/*------- counter area css end ----*/
 
-/* quote css */
+/* ---------quote css-------- */
 .quote-area{
     background: #F1F0FE;
+    background-image: url(../images/quote-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 70px 0;
 }
 .single-quote{
@@ -204,10 +206,10 @@ h4{
 .quote-img img{
     width: 100%;
     height: 250px;
-    border: 5px solid #FC7740;
+    border: 5px solid #FF512F;
 }
 
-/* footer css */
+/* ---------footer css -------*/
 footer{
     text-align: center;
     padding-top: 50px;
